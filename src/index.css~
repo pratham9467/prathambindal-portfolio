@@ -117,7 +117,7 @@ body {
     }
 
     .work-content_logo {
-        @apply rounded-3xl w-16 h-16 p-4 bg-black-600;
+        @apply rounded-3xl overflow-hidden w-16 h-16 p-4 bg-black-600;
     }
 
     .work-content_bar {

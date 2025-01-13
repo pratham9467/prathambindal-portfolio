@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="social-icon">
           <a
             target={"_blank"}
-            href="#"
+            href="https://x.com/PrathamBindal23?t=1Gt02kBE5tPARRTrPlMAIw&s=09"
             className={`flex justify-center items-center`}
           >
             <img

@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="social-icon">
           <a
             target={"_blank"}
-            href="#"
+            href="https://x.com/PrathamBindal23?"
             className={`flex justify-center items-center`}
           >
             <img
@@ -50,7 +50,7 @@ const Footer = () => {
       </div>
 
       <p className="text-white-500">
-        © 2024 Pratham Bindal. All rights reserved.
+        © 2025 Pratham Bindal. All rights reserved.
       </p>
     </footer>
   );
