@@ -1,0 +1,12 @@
+const Navbar = () => {
+    return (
+        <header className="fixed top-0 left-0 right-0 z-50">
+            <div className={`w-full mx-auto`}>
+            <div className={`flex justify-between items-center c-space mx-auto`}>
+            <a href="/" className="text-neutral-400 font-bold text-xl hover:text-white transition-colors">hi</a>
+        </div>
+        </div>
+        </header>
+    )
+}
+export default Navbar
