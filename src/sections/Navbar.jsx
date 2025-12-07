@@ -28,7 +28,7 @@ const Navbar = () => {
             className={`flex justify-between items-center mx-auto py-5 c-space`}
           >
             <a
-              href="/"
+              href="#home"
               className={`text-neutral-400 font-bold text-xl hover:text-white transition-colors `}
             >
               Pratham

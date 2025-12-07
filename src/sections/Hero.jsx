@@ -36,7 +36,15 @@ const Hero = () => {
       </div>
       <div className={`w-full h-full absolute inset-0`}>
         {/*<Leva />*/}
-        <Canvas className={`w-full h-full`}>
+        <Canvas 
+          className={`w-full h-full`}
+          gl={{ preserveDrawingBuffer: true }}
+          onCreated={({ gl }) => {
+            gl.domElement.addEventListener('webglcontextlost', (e) => {
+              e.preventDefault();
+            });
+          }}
+        >
           <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 0, 20]} />
             <HeroCamera isMobile={isMobile}>
@@ -48,7 +56,7 @@ const Hero = () => {
             </HeroCamera>
 
             <group>
-              {<Target position={sizes.targetPosition} />}
+              {/* <Target position={sizes.targetPosition} /> */}
               <ReactLogo position={sizes.reactLogoPosition} />
               <Cube position={sizes.cubePosition} />
               <Rings position={sizes.ringPosition} />

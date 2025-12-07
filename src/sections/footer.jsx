@@ -11,6 +11,7 @@ const Footer = () => {
         <div className="social-icon">
           <a
             target={"_blank"}
+            rel="noopener noreferrer"
             href="https://github.com/pratham9467"
             className={`flex justify-center items-center`}
           >
@@ -24,6 +25,7 @@ const Footer = () => {
         <div className="social-icon">
           <a
             target={"_blank"}
+            rel="noopener noreferrer"
             href="https://x.com/PrathamBindal23?t=1Gt02kBE5tPARRTrPlMAIw&s=09"
             className={`flex justify-center items-center`}
           >
@@ -37,6 +39,7 @@ const Footer = () => {
         <div className="social-icon">
           <a
             target={"_blank"}
+            rel="noopener noreferrer"
             href="https://www.linkedin.com/in/pratham-bindal?"
             className={`flex justify-center items-center`}
           >

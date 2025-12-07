@@ -132,13 +132,13 @@ export const myProjects = [
     ],
   },
   {
-    title: "HonestVue",
-    desc: " A application that provides a platform for users to share their experiences with other users. Users can create posts, comment on other posts, and view other users' posts.",
+    title: "Healthians",
+    desc: "India's leading preventive healthcare platform offering home sample collection for diagnostic tests. Users can book health packages, track reports, and access personalized health insights.",
     subdesc:
-      "Built with React.js, TailwindCSS, HonestVue provides a user-friendly platform for sharing experiences. It can be turned into a side income or even a full-fledged business.",
+      "Developed as a Frontend Engineer delivering seamless user experience for booking diagnostic tests, viewing lab reports, and managing health checkups online.",
     href: "/",
     texture: "/textures/project/project3.mp4",
-    logo: "/assets/project-logo3.png",
+    logo: "/assets/project-logo3.svg",
     logoStyle: {
       backgroundColor: "#60f5a1",
       background:
@@ -247,12 +247,12 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "HonestVue",
-    pos: "Software Developer",
-    duration: "Oct-2024 - Present",
+    name: "Healthians",
+    pos: "Frontend Engineer",
+    duration: "May-2025 - Present",
     title:
-      "HonestVue is a platform for users to share their experiences with other users. Users can create posts, comment on other posts, and view other users' posts. I am responsible for developing new features, fixing bugs, and optimizing the platform for performance and scalability.",
-    icon: "/assets/project-logo3.png",
+      "Healthians is India's leading preventive healthcare platform offering home sample collection for diagnostic tests. I am responsible for developing new features for test booking, lab report viewing, health package management, fixing bugs, and optimizing the platform for performance and scalability.",
+    icon: "/assets/project-logo3.svg",
     animation: "victory",
   },
   {
